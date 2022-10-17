@@ -11,7 +11,7 @@ public class Program
         for (int i = 3; i<= n; i++)
         {
             prev = cur;
-            cur = int.Parse(Console.ReadLine()); ;
+            cur = int.Parse(Console.ReadLine()); 
             if (cur + prev > res)
             {
                 res = cur + prev;
